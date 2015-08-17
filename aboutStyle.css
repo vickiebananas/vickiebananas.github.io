@@ -1,0 +1,10 @@
+@font-face {
+    font-family: russianArkhip;
+    src: url(arkhip.woff);
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: russianArkhip;
+}
