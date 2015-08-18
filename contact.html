@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Victoria</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="mainStyle.css" type="text/css"/>
+</head>
+
+<body>
+	<table id="cntTable">
+    	<th id="header">
+        	Contact
+    	</th>
+    	<tbody>
+        <tr><td><br/><br/>Use the form or links below to contact me.<br/></td></tr>
+        <tr><td> 
+            <table>
+                <tr>        	
+                    <td>
+                    	<br/>
+                        <a href="mailto:vcchavez528@gmail.com"><img src="email.png" alt="Email"></a>
+                        <br/>
+                    </td>
+                    <td>
+                        <a href="http://linkedin.com/in/vcchavez"><img src="linkedin.png" alt="Linked In"></a>
+                        <br/>
+                    </td>
+                    <td>
+                        <a href="http://github.com/vcchavez"><img src="github.png" alt="Github"></a>
+                        <br/>
+                    </td>
+                    <td>
+                        <a href="http://twitter.com/Victoria_Chv"><img src="twitter.png" alt="Twitter"></a>
+                        <br/>
+                    </td>
+                    <td>
+                    	<br/>
+                        <a href="http://vopin.weebly.com"><img src="weebly.png" alt="Weebly"></a>
+                        <br/>
+                    </td>
+                </tr>
+            </table>
+        </td></tr>
+        <form action="process_form.php" method="post" novalidate>
+        <tr>              
+         	<td>
+                <input type="text" name="name" id="field1" placeholder="Name" class="form">
+            </td>
+        </tr>
+        <tr>
+        	<td>
+                <input type="email" name="email" id="field4" placeholder="Email" class="form">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="5" cols="50" name="comment" id="field3" class="form" style="resize:vertical;" required placeholder="Message*"></textarea>
+                <input type="submit" value="Submit" style="vertical-align:35px;">
+                <br/><br/>
+            </td> 
+    	</tr>
+        </form>
+        </tbody>
+    
+    	<tfoot>
+        	<table id="footer">
+            	<tr>
+                    <td id="index" class="foot"><img class="footer" src="V.png" alt="Home"/>Home</td>
+                    <td id="about" class="foot"><img class="footer" src="A.png" alt="About"/>About</td>
+                    <td id="projects" class="foot"><img class="footer" src="P.png" alt="Projects"/>Projects</td>
+                    <td id="contact" class="foot"><img class="footer" src="C.png" alt="Contact"/>Contact</td>
+                    <td id="resources" class="foot"><img class="footer" src="R.png" alt="Resources"/>Resources</td>
+            	</tr>
+        	</table>
+    	</tfoot>
+	</table>
+<script src="script.js"></script>
+</body>
+</html>

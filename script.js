@@ -11,3 +11,9 @@ $(".nav").click(function() {
 	string = string + ".html";
 	$("div").animate({right:'100%'}, {complete: function(){window.location.href=string;}});
 });
+
+$(".foot").click(function() {
+	var string = $(this).attr("id");
+	string = string + ".html";
+	$("table").animate({right:'100%'}, {complete: function(){window.location.href=string;}});
+});
