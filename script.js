@@ -15,5 +15,5 @@ $(".nav").click(function() {
 $(".foot").click(function() {
 	var string = $(this).attr("id");
 	string = string + ".html";
-	$("table").animate({right:'100%'}, {complete: function(){window.location.href=string;}});
+	$("span").animate({right:'100%'}, {complete: function(){window.location.href=string;}});
 });

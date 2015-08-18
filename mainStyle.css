@@ -13,6 +13,10 @@ a {
 	color: #FFFFFF;
 }
 
+span {
+	position: relative;
+}
+
 table {
 	position: relative;
 }
