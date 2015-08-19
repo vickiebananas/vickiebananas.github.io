@@ -1,9 +1,9 @@
 $("#V").mouseenter(function() {
-	$("#V").attr("src", "self.jpg");
+	$("#V").attr("src", "Images/self.jpg");
 });
 
 $("#V").mouseleave(function() {
-	$("#V").attr("src", "V.png");
+	$("#V").attr("src", "Images/V.jpg");
 });
 
 $(".nav").click(function() {
