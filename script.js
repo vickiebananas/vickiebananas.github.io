@@ -1,5 +1,5 @@
 $("#V").mouseenter(function() {
-	$("#V").attr("src", "self.png");
+	$("#V").attr("src", "self.jpg");
 });
 
 $("#V").mouseleave(function() {
