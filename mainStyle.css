@@ -45,10 +45,18 @@ table {
 	width: 400px;
 }
 
+.foot:hover {
+	text-decoration: overline;
+	cursor: pointer;
+}
+
+.foot {
+	text-decoration: underline;
+}
+
 #footer {
 	margin-left: 5%;
 	font-family: russianArkhip;
-	text-decoration: underline;
 }
 
 .footer {
