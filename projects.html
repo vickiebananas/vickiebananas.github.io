@@ -9,9 +9,72 @@
 
 <body>
 <span>
-<center><h1>Coming Soon...</h1></center>
-<br/><br/>
-    <table id="footer">
+<table id="projectTable">
+    <th id="header" colspan="3"> Projects <br/></th>
+    <tbody>
+    <tr><td colspan="3" style="background-color: #000000;">
+    <center>Hover over each block to see a short project description. Due to the nature of some course policies, source code for a lot of these projects cannot be found on my <a href="http://github.com/vcchavez">GitHub</a>. However, if you'd like to learn more about my implementation for any of the projects below, feel free to <a href="contact.html">contact</a> me. <br/><br/></center>
+    </tr></td>
+	<tr style="background-color: #575757; height: 125px;">
+        <td> <h4>Evil Hangman</h4>
+            <div class="proj">
+            Classic Hangman with a twist! Played through the system's input/output stream, with every guess, the computer changes the word
+            in order to decrease the chances of the user guessing the correctly. Java.</div>
+        </td>
+        <td> <h4>Bignum</h4>
+            <div class="proj"`>
+            A program that represents natural numbers as a reversed list of integers and has procedures to add and multiply. 
+            Programmed to be used on large numbers, runs O(n) for addition and o(n^2) for multiplication.
+            Racket.</div>
+        </td>
+        <td> <h4>Eliza</h4>
+            <div class="proj">        
+            A simple chat bot used through the command line-- Eliza follows a set of rules
+            in order to respond to whatever a user inputs. OCaml.</div>
+        </td>
+   </tr>
+   <tr style="background-color: #575757; height: 125px;">
+        <td> <h4>Rackette</h4>
+            <div class="proj">
+            A Racket interpreter that can evaluate simple procedures and lambda expressions. A second version of this project can fully evaluate recursive procedures
+            and lists. OCaml.</div>
+        </td>
+        <td> <h4>Game</h4>
+            <div class="proj">
+            A Connect4 game that can be played through the command line with another player or against the coded AI. The user can see the board on the terminal and then chooses which column to
+            place their token in, in order to connect four of their tokens and prevent their opponent
+            from doing the same. OCaml.</div>
+        </td>
+        <td> <h4>Grail Games</h4>
+            <div class="proj">
+            A two-player game that makes use of a virtual deck of cards. Similar to the Pokemon
+            card game, duelers are (cards) are either on the bench or in the arena and they
+            fight against opponent duelers using their special fight methods that cause some 
+            amount of damage to their opponent. Java.</div>
+        </td>
+   </tr>
+   <tr style="background-color: #575757; height: 125px;">
+        <td> <h4>Contacts</h4>
+            <div class="proj">
+            Using a socket-client connection, users may add or remove contacts which are stored in a 
+            temporary database of sorts. Users may extract their contacts in XML form as well as
+            start with an XML address book and simply add/remove contacts from there. Java.</div>
+        </td>
+        <td> <h4>Knight Dating</h4>
+            <div class="proj">
+            Project that makes use of Binary Search Trees and nearest neighbor search. Nodes store
+            numerical data and a user can interact with a GUI (created using JavaFX) and enter other 
+            numerical data and will receive the name of the 'person' whose numerical info most closely
+            matches theirs. Scala.</div>
+        </td>
+        <td> <h4>Search</h4>
+            <div class="proj">
+            Description. Scala.</div>
+        </td>
+   </tr>
+</tbody>
+<tfoot>
+     <table id="footer">
         <tr>
             <td id="index" class="foot"><img class="footer" src="Images/V.jpg" alt="Home"/>Home</td>
             <td id="about" class="foot"><img class="footer" src="Images/A.jpg" alt="About"/>About</td>
@@ -20,6 +83,8 @@
             <td id="resources" class="foot"><img class="footer" src="Images/R.jpg" alt="Resources"/>Resources</td>
         </tr>
     </table>
+</tfoot>
+</table>
 <script src="script.js"></script>
 </span>
 </body>

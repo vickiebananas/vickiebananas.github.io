@@ -22,15 +22,13 @@ table {
 }
 
 #abtTable {
-	margin-left: 15%;
-	margin-top: 10%;
-	
+	margin: 10% auto auto auto;
 }
 
 #cntTable {
-	margin-left: 35%;
-	margin-top: 10%;
+	margin: 10% auto auto auto;
 }
+
 #header {
 	font-size: 44px;
 	font-family: russianArkhip;
@@ -41,10 +39,6 @@ table {
 	font-family: russianArkhip;
 }
 
-.form {
-	width: 400px;
-}
-
 .foot:hover {
 	text-decoration: overline;
 	cursor: pointer;
@@ -52,13 +46,42 @@ table {
 
 .foot {
 	text-decoration: underline;
+	width: 15%;
 }
 
 #footer {
-	margin-left: 5%;
+	width: 90%;
+	margin: auto auto auto 8%;
 	font-family: russianArkhip;
 }
 
 .footer {
 	width: 15%;
+}
+
+#projectTable {
+	width: 75%;
+	height: 90%;
+	margin: 5% auto auto auto;
+	border-style: solid;
+	border-color: #000000;
+}
+
+#projectTable td {
+	width: 30%;
+	text-align: center;
+}
+
+.proj {
+	color: #575757;
+	width: 80%;
+	height: 75%;
+	overflow: scroll;
+	font-size: small;
+	padding-bottom: 33.33%;
+	margin: auto auto 5% auto;
+}
+
+.proj:hover {
+	color: #FFFFFF;
 }
