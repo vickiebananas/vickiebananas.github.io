@@ -21,22 +21,26 @@ table {
 	position: relative;
 }
 
-#abtTable {
-	margin: 10% auto auto auto;
-}
-
-#cntTable {
-	margin: 10% auto auto auto;
-}
-
-#header {
-	font-size: 44px;
-	font-family: russianArkhip;
+#aboutHeader {
+	margin: 50%;
 }
 
 #headerText {
 	font-size: 44px;
 	font-family: russianArkhip;
+}
+
+#projectTable {
+	width: 75%;
+	height: 90%;
+	margin: 5% auto auto auto;
+	border-style: solid;
+	border-color: #000000;
+}
+
+#projectTable td {
+	width: 30%;
+	text-align: center;
 }
 
 .foot:hover {
@@ -55,21 +59,17 @@ table {
 	font-family: russianArkhip;
 }
 
+.contentTable {
+	margin: 10% auto auto auto;
+}
+
+.header {
+	font-size: 44px;
+	font-family: russianArkhip;
+}
+
 .footer {
 	width: 15%;
-}
-
-#projectTable {
-	width: 75%;
-	height: 90%;
-	margin: 5% auto auto auto;
-	border-style: solid;
-	border-color: #000000;
-}
-
-#projectTable td {
-	width: 30%;
-	text-align: center;
 }
 
 .proj {
