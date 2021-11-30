@@ -7,7 +7,7 @@
         if(anchor){
             const href = anchor.href;
             //need http://127.0.0.1 for local testing
-            if(!href.startsWith(baseUrl) && !href.startsWith('#') && !href.startsWith("http://127.0.0.1")){
+            if(!href.startsWith(baseUrl) && && !href.startsWith("https://vickiebananas.com") && !href.startsWith('#') && !href.startsWith("http://127.0.0.1")){
                 window.open(href,'_blank');
                 event.preventDefault();
             }
