@@ -1,0 +1,15 @@
+{% include begin.html %}
+    
+<div class="main-100">
+  <div>
+    <img src="{{ page.img }}" alt="{{ page.img_alt }}" width="20%">
+  </div>
+  <div>
+    {{ content }}
+  </div>
+  
+  {% include navigation.html %}
+  
+</div>
+    
+{% include end.html %}
