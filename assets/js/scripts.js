@@ -6,6 +6,8 @@ document.addEventListener('click', function (event) {
         const href = anchor.href;
         //need http://127.0.0.1 for local testing
         if(!href.startsWith(baseUrl) && !href.startsWith('#') && !href.startsWith("http://127.0.0.1")){
+            console.log(baseUrl);
+            console.log(href);
             window.open(href,'_blank');
             event.preventDefault();
         }
