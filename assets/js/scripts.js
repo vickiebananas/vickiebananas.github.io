@@ -11,4 +11,7 @@ document.addEventListener('click', function (event) {
         }
     }
 
+    console.log(baseUrl);
+    console.log(href);
+
 }, false);
