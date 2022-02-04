@@ -5,7 +5,7 @@ title: CV - VCC
 
 # Curriculum Vitae
 
-My CV was last updated Summer 2021 and is due for some updates over Winter 2021. <br>
+My CV was last updated Summer 2021 and is due for some updates. <br>
 
 For most up to date info, please see my [LinkedIn](http://linkedin.com/in/vickiebananas) or check back early 2022.<br>
 
