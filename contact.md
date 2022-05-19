@@ -9,7 +9,7 @@ I go by @vickiebananas everywhere, though there are few platforms I actually use
 
 ## How to Reach me
 
-You can find me as @vickiebananas on [Twitter](http://twitter.com/vickiebananas), [LinkedIn](http://linkedin.com/in/vickiebananas), and [GitHub](http://github.com/vickiebananas) or you can [send me an email](mailto:vickiebananas@gmail.com).
+You can find me as @vickiebananas on [Twitter](http://twitter.com/vickiebananas), [LinkedIn](http://linkedin.com/in/vickiebananas), and [GitHub](http://github.com/vickiebananas) or you can [send me an email](mailto:victoria@vickiebananas.com).
 
 ## Why vickiebananas?
 It started in high school, because I've always liked bananas (which have a pretty [dark history](https://ed.ted.com/lessons/the-dark-history-of-bananas-john-soluri), by the way) and my friends once covered my locker in pictures of them. I've never actually gone by Vickie or any variation of its spelling* but I liked the ring vickiebananas had to it, so I stuck with it. I chose the 'ie' spelling of it because my favorite teacher once addressed a note to me using that spelling.
