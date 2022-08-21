@@ -9,7 +9,7 @@ alt_img: Blue circle with a white V on it
 
 ## Educator. Writer. Engineer. 
 
-## Chapina. Queer. First-Gen. 
+## Chapine. Queer. First-Gen. 
 
 ## #LivingWithMS
 
