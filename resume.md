@@ -5,9 +5,7 @@ title: CV - VCC
 
 # Curriculum Vitae
 
-My CV was last updated Summer 2021 and is due for some updates. <br>
-
-For most up to date info, please see my [LinkedIn](http://linkedin.com/in/vickiebananas) or check back early 2022.<br>
+For most up to date info, please see my [LinkedIn](http://linkedin.com/in/vickiebananas). <br>
 
 CV not showing below? <a href="assets/vickiebananas-cv.pdf" download="VictoriaCChavezCV.pdf">Download PDF.</a> 
   

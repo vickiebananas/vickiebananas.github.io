@@ -1,3 +1,5 @@
 *.zip
 old
 _site
+.jekyll-cache/
+.DS_Store
