@@ -18,6 +18,6 @@ My research interests stem from asking "How can we make computer science a safe 
 
 I'm a proud Chapine (Guatemalan) born and raised in Chicago, now calling Rhode Island home. I am also a proud [QuestBridge Scholar](https://www.questbridge.org/scholars), [Technolochica](http://technolochicas.org), and a member of [NCWIT Aspirations](http://www.aspirations.org), among others. Outside of computer science and teaching, I enjoy reading, writing (poetry and short stories), and watching anything that's suspense, thriller, or comedy.
 
-<!-- ## Third-Person Bio (399 chars, 55 words)
-Victoria (they/she) is a Joint PhD student in the Computer Science + Learning Sciences Program at Northwestern University. Victoria's research interests stem from asking "How can we make computer science a safe and joyous experience for Black, Disabled, Indigenous, and Latine/x college students?". They are also broadly interested in issues of accessibility, civic tech, equity, and social justice.
+<!-- ## Third-Person Bio (69 words, 490 characters)
+Victoria (they/she) is a Chicago-born and raised Chapine (Guatemalan) educator, scholar, and engineer. Currently, they’re a Joint PhD student in the Computer Science + Learning Sciences Program at Northwestern University. Victoria’s research interests stem from asking “How can we make computer science a safe and joyous experience for Black, Disabled, Indigenous, and Latine/x college students?“. They are also interested in issues of accessibility, civic tech, equity, and social justice.
  -->
