@@ -7,7 +7,7 @@ alt_img: Blue circle with a white V on it
 
 # Victoria Concepci&oacute;n Ch&aacute;vez. 
 
-## Educator. Writer. Engineer. 
+## Educator. Scholar. Engineer. 
 
 ## Chapine. Queer. First-Gen. 
 
