@@ -1,0 +1,47 @@
+<div class="col-10 text-center">
+	<h3 class="mb-5 mt-2">{{page.title}}</h3>
+</div>
+
+<div class="col-7 text-center">
+	<p>{{page.description}}</p>
+	<hr class="my-5">
+</div>
+
+<div class="col-10">
+{% assign cat = 'site.data.publications.' | append: page.yaml_cat %}
+{{ cat }}
+<h2>meep</h2>
+{% capture cat2 %} {{ cat }}{%endcapture%}
+{{ cat2 }}
+<h2>meep</h2>
+{{ site.data.publications.accessibility }}
+
+{% for item in site.data.publications."{{ cat }}" %}
+	<div class="row">
+		<div class="col-8">
+			<p>
+				{% assign last_char = item.title | strip | slice: -1 %}
+				{{ item.authors }}. 
+			    {% if item.year %}
+			        ({{ item.year }}).
+			    {% endif %}
+			    <strong>{{ item.title }}{% if last_char != "?" %}.{% endif %}</strong>
+			    {% if item.source %}
+			        <em>{{ item.source }}.</em>
+			    {% endif %}
+			</p>
+		</div>
+		{% if item.pdf %}
+			<div class="col-md-12 col-lg-2">
+				<a href="{{ item.url }}" class="btn btn-extra">View Source</a>
+			</div>
+			<div class="col-md-12 col-lg-2">
+				<a href="/assets/pdfs/{{ item.pdf }}" class="btn btn-extra">View PDF</a>
+			</div>
+		{% else %}
+			<div class="col-4">
+				<a href="{{ item.url }}" class="btn btn-extra">View Source</a>
+			</div>
+		{% endif %}
+	</div>
+{% endfor %}

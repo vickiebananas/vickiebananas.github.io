@@ -1,10 +1,56 @@
-- name: Home
-  link: /
-- name: About Me
-  link: /about.html
-- name: Contact
-  link: /contact.html
-- name: Resume/CV
-  link: /resume.html
-# - name: Resources
-#   link: /resources.html
+#Please use the main menu items under the "name"
+main:
+  - name: Home
+    url: /
+  - name: About / CV
+    url: 
+    submenu:
+      - name: About
+        url: /about
+      - name: Download CV
+        url: /assets/vickiebananas-cv.pdf
+  - name: Portfolio
+    url:
+    submenu:
+      - name: Curriculum
+        url: /curriculum
+      - name: Programming
+        url: /programming
+      - name: Research
+        url: /research
+      - name: Misc
+        url: /misc
+  - name: Updates
+    url: /updates
+  - name: Contact
+    url: /contact
+
+########## footer menu ###############
+mainfooter:
+  - name: Home
+    url: /
+  - name: About
+    url: /about
+  - name: Download CV
+    url: /assets/vickiebananas-cv.pdf
+  - name: Updates
+    url: /updates
+  - name: Contact
+    url: /contact
+
+portfoliofooter:
+  - name: Curriculum
+    url: /curriculum
+  - name: Programming
+    url: /programming
+  - name: Research
+    url: /research
+  - name: Misc
+    url: /misc
+
+############## Bottom menu ###############
+# bottom:
+#   - name: Terms of Service
+#     link: "#"
+#   - name: Privacy Policy
+#     link: "#"
