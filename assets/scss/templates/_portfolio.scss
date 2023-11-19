@@ -208,3 +208,21 @@
     }
   }
 }
+
+.h5-flex {
+  font-size: calc(min(3vw,20px));
+  line-height: calc(min(3.2vw,34px));
+  font-family: "Poppins",sans-serif;
+}
+
+.h6-flex {
+  font-size: calc(min(2.5vw,16px));
+  line-height: calc(min(2.7vw,26px));
+  font-weight: 500;
+  font-family: "Poppins",sans-serif;
+}
+
+.p-flex {
+  font-size: calc(min(2.5vw,16px));
+  line-height: calc(min(2.7vw,26px));
+}

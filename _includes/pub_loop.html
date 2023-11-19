@@ -1,0 +1,21 @@
+{% for item in items %}
+<div class="col-12 mb-4 shuffle-item" data-groups="[{% for category in item.categories %} &quot;{{ category | downcase | slugify }}&quot; {% unless forloop.last %}, {% endunless %} {% endfor %}]">
+	<div class="row">
+		<div class="col-12">
+			<p><strong>{{ item.title }}</strong>
+			    {% if item.syllabus %}
+			    	[<a href="{{ item.syllabus }}" aria-label="Course syllabus for {{ item.title }}">Course Syllabus</a>]
+				{% endif %}	
+				{% if item.materials %}
+			    	[<a href="{{ item.materials }}" aria-label="Course materials for {{ item.title }}">Course Materials</a>]
+				{% endif %}	
+				{% if item.proj %}
+			    	[<a href="{{ item.proj }}" aria-label="View {{ item.title }} project">View Project</a>]
+				{% endif %}		
+				<br>	    	
+				{{ item.abstract }}
+			</p>
+		</div>
+	</div>
+</div>
+{% endfor %}

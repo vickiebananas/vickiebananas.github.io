@@ -12,14 +12,12 @@ main:
   - name: Portfolio
     url:
     submenu:
+      - name: Research
+        url: /research
       - name: Curriculum
         url: /curriculum
       - name: Programming
         url: /programming
-      - name: Research
-        url: /research
-      - name: Misc
-        url: /misc
   - name: Updates
     url: /updates
   - name: Contact
@@ -39,14 +37,12 @@ mainfooter:
     url: /contact
 
 portfoliofooter:
+  - name: Research
+    url: /research
   - name: Curriculum
     url: /curriculum
   - name: Programming
     url: /programming
-  - name: Research
-    url: /research
-  - name: Misc
-    url: /misc
 
 ############## Bottom menu ###############
 # bottom:

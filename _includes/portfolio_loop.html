@@ -1,29 +1,31 @@
-{% for pub in site.data.publications.pubs %}
-<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for category in pub.categories %} &quot;{{ category | downcase | slugify }}&quot; {% unless forloop.last %}, {% endunless %} {% endfor %}]">
+{% for item in items %}
+<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for category in item.categories %} &quot;{{ category | downcase | slugify }}&quot; {% unless forloop.last %}, {% endunless %} {% endfor %}]">
   <div class="position-relative inner-box">
     <div class="image position-relative ">
       <img src="/assets/images/portfolio/portfolio.jpg" alt="green square background" class="img-fluid w-100 d-block" />
       <div class="overlay-box">
-        <h2 class="h5 mt-5 mb-3 text-black col-12">{{pub.title}}</h2>
+        <h2 class="h5-flex mt-5 mb-3 text-black col-12">{{item.title}}</h2>
         <div class="overlay-content text-center">
-          <p class="h6 text-extra mb-5">{% for category in pub.categories %} {{category}}{% unless forloop.last %}, {% endunless %} {% endfor %}</p>
-          {% if pub.source-logo %} <img src="/assets/images/portfolio/logos{{ pub.source-logo | relative_url}}" class="col-5 w-100"> {% endif %}
+          <p class="h6-flex text-extra">{% for category in item.categories %} {{category}}{% unless forloop.last %}, {% endunless %} {% endfor %}</p>
+          {% if item.source-logo %} <img src="/assets/images/portfolio/logos{{ item.source-logo | relative_url}}" class="col-5 w-100"> {% endif %}
         </div>
         <div class="overlay-inner">
           <div class="overlay-content text-center">
-            <p class="col-12">{{ pub.abstract }}</p>
+            <p class="col-12 p-flex">{{ item.abstract }}</p>
             <div class="row">
-              {% if pub.pdf %}
+              {% if item.pdf %}
                 <div class="col-6">
-                  <a href="{{ pub.url }}" class="btn btn-extra-light">View Source</a>
+                  <a href="{{ item.url }}" class="btn btn-extra-light">View Source</a>
                 </div>
                 <div class="col-6">
-                  <a href="{{ pub.pdf | relative_url }}" class="btn btn-extra-light">View PDF</a>
+                  <a href="{{ item.pdf | relative_url }}" class="btn btn-extra-light">View PDF</a>
                 </div>
               {% else %}
-                <div class="col-12">
-                  <a href="{{ pub.url }}" class="btn btn-extra-light">View Source</a>
-                </div>
+                {% if item.url %}
+                  <div class="col-12">
+                    <a href="{{ item.url }}" class="btn btn-extra-light">View Source</a>
+                  </div>
+                {% endif %}
               {% endif %}
             </div>
           </div>
