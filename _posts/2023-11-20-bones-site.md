@@ -15,7 +15,7 @@ excerpt: A few broken bones and a lot of time later, I finally got around to upd
 			<div class="overlay-box">
 			    <div class="overlay-content">
 			    	<figure>
-			    		<img src="/assets/images/updates/tree-hidden.jpg" class="w-100" alt="A faded and monocolored image that is the image described next but filtered for folks who many not want to see it or have it described.">
+			    		<img src="/assets/images/updates/tree-hidden.jpg" class="w-100" alt="A faded and monocolored image that is the image described next but filtered for folks who many not want to see it or have it described. White text reads hover for a picture of the tree (tap if on mobile)">
 			      		<figcaption>The pulverized tree</figcaption>
 			      	</figure>
 			    </div>
