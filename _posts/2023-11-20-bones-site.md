@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Bones, New Website, Who Dis?"
-date: 2023-11-20
+date: 2023-11-19
 categories: [personal]
 featured: true
 excerpt: A few broken bones and a lot of time later, I finally got around to updating my site!
