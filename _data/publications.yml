@@ -1,0 +1,72 @@
+items:
+  - title: '“Accessibility is important to everybody”: Unpacking Students’ Understanding about Accessibility'
+    categories: ["Accessibility", "Education"]
+    authors: Chávez, V. C., Van Wart, S. 
+    year: 2023
+    source: Blikstein, P., Van Aalst, J., Kizito, R., & Brennan, K. (Eds.), Proceedings of the 17th International Conference of the Learning Sciences - ICLS 2023 (pp. 1474-1477). International Society of the Learning Sciences. International Conference of the Learning Sciences (ICLS ‘23)
+    source-logo: isls-logo.png
+    url: https://repository.isls.org//handle/1/9951
+    pdf: Chavez-VanWart23-Students-Understanding-Accessibility.pdf
+    abstract: In this paper, we use students’ assignments to offer insights about what students take away when they learn about web accessibility...
+  - title: '“The Focus Came in Handy for Me Too”: Exploring Accessibility Learning and Identity Formation in a Web Development Course'
+    categories: ["Accessibility", "Education"]
+    authors: Chávez, V. C.
+    year: 2023
+    source: Blikstein, P., Van Aalst, J., Kizito, R., & Brennan, K. (Eds.), Proceedings of the 17th International Conference of the Learning Sciences - ICLS 2023 (pp. 2127-2128). International Society of the Learning Sciences
+    source-logo: isls-logo.png
+    url: https://repository.isls.org//handle/1/10195
+    pdf: Chavez23-Accessibility-Learning-Identity-Formation.pdf  
+    abstract: In this paper, we explore learners’ knowledge acquisition as it relates to accessibility-related identity formation...
+  - title: 'Expanding Computer Science for All: Effectiveness of State Practices and Implementation'
+    categories: ["Policy", "K12"]
+    authors: Chávez, V. C.
+    year: 2021
+    source: Virtual American Education Research Association (AERA) Annual Meeting
+    source-logo: aera-logo.png
+    url: https://doi.org/10.3102/1688247
+    pdf: Chavez21-CS-All- Effectiveness-State-Practices-Implementations.pdf
+    abstract: This case study examines how and why certain state-level implementations have been more effective than others in expanding access to K-12 CS education...
+  - title: Advocacy & Activism in the Disability Community
+    categories: ["Disability", "Social Justice"]
+    authors: Chávez, V.C.
+    year: 2023
+    source: NCWIT re:think Magazine
+    source-logo: ncwit-logo.png
+    url: https://ncwit.org/rethink/issue-3/
+    pdf: Chavez23-Disability-Advocacy-Activism.pdf
+    abstract: In this interview I share a bit about me, my role models, passions, motivations, and challenges...
+  - title: ReCSistance
+    categories: ["Social Justice", "Academia"]
+    authors: Chávez, V. C., Bettin, B., Araujo Melo, N., Castro, F., Huff Jr, E. W., Jayathirtha, G., Kivuva, M., Kong, M., Solomon, A., and Tsan, J. 
+    year: 2022
+    source: Recipes for Resistance
+    source-logo: r4r-logo.png
+    url: https://recipes4resistance.github.io/2022/11/11/e1p2.html
+    abstract: We unpack the concept of resistance, especially in computing and computing education...
+  - title: An Open Letter to the CS Ed Community
+    categories: ["Social Justice", "Academia"]
+    authors: Melo, N.A., Bettin, B.C., Castro, F., Chávez, V.C., Huff, E.W., Jayathirtha, G., Jimenez, Y.A., Kivuva, M., Kong, M., Solomon, A. and Tsan, J.
+    year: 2022
+    source: The Papaya Project
+    source-logo: papaya-logo.png
+    url: https://the-papaya-project.github.io/letter
+    abstract: We write this letter in pursuit of a research community that centers healing, love, and accountability...
+  - title: Increasing retention rates of undergraduates in STEM
+    categories: ["Education", "STEM", "Undergraduate"]
+    authors: Chávez, V., and Alarcon, T.
+    year: 2017
+    source: Broader Impacts and Open Educational Resources, Brown University Student Publications. Brown Digital Repository. Brown University Library. 
+    source-logo: brown-logo.png
+    url: https://doi.org/10.7301/Z0B27SHR
+    pdf: Chavez-Alarcon17-Increasing-Retention-STEM.pdf
+    abstract: We analyze faculty and student interviews to understand the disconnect between the two and create actionable items for the University, departments, professors, and students to help increase the retention of students studying STEM...
+  - title: How My Students and I (Re) Discovered the Joy of Computing in CS2
+    categories: ["CS2", "Undergraduate"]
+    authors: Chávez, V.C.
+    year: 2023
+    source: ACM Inroads
+    source-logo: acm-logo.png
+    url: http://dx.doi.org/10.1145/3596918
+    pdf: Chavez23-Joy-CS2-DSA.pdf
+    abstract: In this piece, I reflect on my own experiences teaching a DSA course for the first and second time and highlight some of the ways my students and I were able to (re)-discover the joy of computing in CS2...
+

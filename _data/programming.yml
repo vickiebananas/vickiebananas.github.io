@@ -1,0 +1,48 @@
+items:
+  - title: "SNAPy"
+    abstract: An SMS app that allows users to find locations near them that accept food stamps. A user can text their address formatted as "69 Brown St Providence, RI" and will receive a text with the three places nearest them that accept food stamps according to USDA's data.
+    categories: ['Python','API Use']
+    proj: https://devpost.com/software/snapy
+  - title: "Evil <s>Hangman</s> Snowman"
+    abstract: Classic <s>Hangman</s> Snowman with a twist! Played through the system's input/output stream, with every guess, the computer changes the word in order to decrease the chances of the user guessing the correctly. 
+    categories: ['Java']
+  - title: "Bignum"
+    abstract: A program that represents natural numbers as a reversed list of integers and has procedures to add and multiply.  Programmed to be used on large numbers, runs O(n) for addition and O(n<sup>2</sup>) for multiplication.
+    categories: ['Racket']
+  - title: "Eliza"
+    abstract: A simple chat bot used through the command line-- Eliza follows a set of rules in order to respond to whatever a user inputs. 
+    categories: ['OCaml','AI']
+  - title: "Rackette"
+    abstract: A Racket interpreter that can evaluate simple procedures and lambda expressions. A second version of this project can fully evaluate recursive procedures and lists. 
+    categories: ['OCaml','PL-Interpreter']
+  - title: "Connect4"
+    abstract: A Connect4 game that can be played through the command line with another player or against an AI programmed using the Min-Max algorithm. The user can see the board on the terminal and then choose which column to place their token in, in order to connect four of their tokens and prevent their opponent from doing the same. 
+    categories: ['OCaml','Game','AI']
+  - title: "Grail Games"
+    abstract: A two-player game that makes use of a virtual deck of cards. Similar to the Pokemon card game, duelers (cards) are either on the bench or in the arena and they fight against opponent duelers using their special fight methods that cause a set amount of damage to their opponent. 
+    categories: ['Java','Game']
+  - title: "Contacts"
+    abstract: Using a socket-client connection, users may add or remove contacts which are stored in a temporary database of sorts. Users may extract their contacts in XML form as well as start with an XML address book and simply add/remove contacts from there. 
+    categories: ['Java','Server','Parsing','API Use']
+  - title: "Knight Dating"
+    abstract: Project that makes use of k-d Trees and nearest neighbor search. Nodes store numerical data representing user traits. User interact with a GUI (created using JavaFX) to enter their traits (numerical data) and will receive the name of the 'person' whose traits (numerical info) most closely matches theirs. 
+    categories: ['Scala','JavaFX', 'Trees','GUI']
+  - title: "Search Engine"
+    abstract: A console-based search engine utilizing as its corpus a subset of Wikipedia. The engine makes use of the PageRank algorithm to sort relevant results from free text queries.
+    categories: ['Scala','Parsing']
+  - title: Dr. Moya Bailey - Personal Site
+    abstract: Re-design of Dr. Bailey's personal academic site on WordPress.
+    categories: ['Web Development','WordPress']
+    proj: https://moyabailey.com
+  - title: Labs for Liberation - Academic Site
+    abstract: Website and logo design for Dr. Bailey's and Dr. Hamraie's lab. Developed using WordPress.
+    categories: ['Web Development','WordPress']
+    proj: https://labsforliberation.org
+  - title: Papaya Project - Team Site
+    abstract: Development and deployment of The Papaya Project's website using Jekyll and GitHub Pages.
+    categories: ['Web Development','Jekyll']
+    proj: https://the-papaya-project.github.io
+  - title: Recipes for Resistance - Podcast Site
+    abstract: Design, development, and deployment of a website for our 'Recipes for Resistance' Podcast. Site made using Jekyll and GitHub Pages.
+    categories: ['Web Development','Jekyll']
+    proj: http://recipes4resistance.github.io

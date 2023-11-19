@@ -1,0 +1,50 @@
+---
+layout: default_2
+---
+
+{% include header_2.html %}
+
+{% case page.yaml_cat %}
+  {% when "publications" %}
+     {% assign items = site.data.publications.items %}
+  {% when "curriculum" %}
+     {% assign items = site.data.curriculum.items %}
+  {% when "programming" %}
+     {% assign items = site.data.programming.items %}
+{% endcase %}
+
+<!-- Portfolio  Start -->
+<section class="section portfolio-5">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-10 text-center">
+				<h1 class="mb-5 mt-2 text-uppercase">{{page.title}}</h1>
+			</div>
+		</div>
+
+    <div class="align-items-center mb-5">
+      	<div class="text-center">
+	        <div class="btn-group btn-group-toggle row" data-toggle="buttons">
+	          <label class="btn border-0 active">
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+	          </label>
+						{% assign categories = items| map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+						{% for category in categories %}
+						<label class="btn border-0">
+							<input type="radio" name="shuffle-filter" value="{{ category | downcase | slugify }}" />{{ category }}
+						</label>
+						{% endfor %}
+	        </div>
+      </div>
+    </div>    
+  </div>		
+
+
+  <div class="container">
+    <div class="row shuffle-wrapper portfolio-gallery">
+    	{% assign items = items | sort: 'title' %}
+      {% include pub_loop.html items=items%}
+    </div>
+	</div>
+</section>
+<!-- Portfolio  End -->

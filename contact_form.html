@@ -1,0 +1,71 @@
+---
+layout: iframe
+title: Contact Form
+---
+<form id="contactForm" name="sentMessage" id="contactForm" action="https://formspree.io/f/{{ site.contact_form_action }}" method="POST">
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label for="name">Name *</label>
+      <input type="text" name="name" class="form-control" placeholder="Name *" id="name" autocomplete="name" required aria-required="true">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label for="email">Email Address *</label>
+      <input type="email" name="email" class="form-control" placeholder="Email Address *" id="email" autocomplete="email" required aria-required="true">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label for="message">Message *</label>
+      <textarea name="message" rows="3" class="form-control" placeholder="Message *" id="message" required aria-required="true"></textarea>
+    </div>
+  </div>
+
+  <input type="hidden" name="_subject" value="Sent from website contact form." />
+  <input type="hidden" name="_next" value="contacted" />
+
+  <br>
+  <div id="success"></div>
+  <div class="form-group">
+    <input type="submit" class="btn btn-extra" value="Send">
+  </div>
+</form>
+
+<!-- Form Validation, mostly from https://www.aleksandrhovhannisyan.com/blog/html-input-validation-without-a-form/ -->
+  <script>
+    const inputs = Array.from(document.getElementById("contactForm").elements);
+    inputs.forEach((input) => {
+      input.addEventListener('blur', (e) => {
+
+        // Don't keep the user locked in place if we previously validated the input
+        if (document.getElementById(`${input.id}-error`)) {
+          return;
+        }
+
+        const isValid = e.target.checkValidity();
+
+        if (!isValid) {
+          const errorElement = document.createElement('span');
+          errorElement.id = `${input.id}-error`;
+          errorElement.setAttribute("aria-live","polite")
+          errorElement.style.color = "red";
+          const errorMessage = e.target.validationMessage;
+          errorElement.textContent = errorMessage;
+          
+          input.insertAdjacentElement('beforebegin', errorElement); 
+          input.setAttribute('aria-describedby', errorElement.id);
+
+          // Focus the invalid input so its error is narrated
+          e.target.focus();
+
+          // Listen for the input event now so we delete error mssg if it's there on every keystroke
+          input.addEventListener('input', (e) => {
+            if (document.getElementById(errorElement.id) && errorElement.parentNode) {
+              errorElement.parentNode.removeChild(errorElement);
+            }
+          });
+        }
+      });
+    });
+  </script>

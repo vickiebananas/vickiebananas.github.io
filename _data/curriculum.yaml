@@ -1,0 +1,59 @@
+items:
+  - title: "YWeb Career Academy"
+    categories: ['Web Development','Adult Learning','Digital Literacy']
+    syllabus:
+    materials:
+    abstract: Learn to communicate effectively using principles and technologies of web design and programming. Developers are problem solvers who need to know what tools will enable them to best meet the needs of their clients. This course will cover a variety of tools and strategies for developing sites, including HTML, CSS, and JavaScript, among others.
+  - title: "Human Computer Interaction (HCI)"
+    categories: ['HCI']
+    syllabus:
+    materials:
+    abstract: Introduction to human-computer interaction and the design of systems that work for people and their organizations. The goal is to understand the manner in which humans interact with, and use, their computers for productive work. The course focus is on the interface as designed artifact. The interface is a design problem without a single "correct" solution but which has many "good" solutions and a plethora of "bad" solutions. Class discussion centers on what makes an interface good and proven techniques for designing interfaces that meet human needs. 
+  - title: Java Programming
+    categories: ['CS1','Java','Programming']
+    syllabus:
+    materials:
+    abstract: 'This course introduces students to topics in programming and software design using the Java programming language. Specific topics reflect current technologies and might include an introduction to object-oriented program design, data analysis, and search and sort algorithms. Being a computer scientist is about more than knowing the ins and outs of any given language or tool-- it’s about creating solutions. As problem solvers, developers need to know how to use the tools available to them to best* meet the needs of their clients. 
+              <br> <i> *Solutions are best when they are clean and efficient. In order to be a solution, it must be fully-functional, otherwise it’s just a band-aid. </i>'
+  - title: Introduction to Computer Ethics
+    categories: ['Computing Ethics']
+    syllabus:
+    materials:
+    abstract: This course explores the ethical impact of computer technology on the world, as well as the rules and regulations that ensure the proper use of technology. Internet crime, privacy protection and first amendment rights that protect our freedoms in cyberspace are closely examined. Being a computer scientist is about more than knowing the ins and outs of any given language or tool-- it’s about creating solutions. If your solution doesn’t work for everyone, then it doesn’t work.
+  - title: Advanced Java Programming
+    categories: ['Programming', 'CS2-Programming']
+    syllabus:
+    materials:
+    abstract: 'This course introduces students to advanced topics in programming and software design such as graphical modeling techniques and algorithms and analysis as well as current techniques in interface design and user interaction. Specific topics reflect current technologies and might include inheritance and polymorphism in object-oriented design and graphical user interfaces and the event loop. Being a computer scientist is about more than knowing the ins and outs of any given language or tool-- it’s about creating solutions. As problem solvers, developers need to know how to use the tools available to them to best* meet the needs of their clients. 
+              <br> <i> *Solutions are best when they are clean and efficient. In order to be a solution, it must be fully-functional, otherwise it’s just a band-aid. </i>'
+  - title: Data Structures and Abstractions
+    categories: ['Programming','CS2-DSA']
+    syllabus: https://vcc-csc212.github.io
+    materials: https://vcc-csc212.github.io
+    abstract: Data structures and algorithms is arguably the most important course you’ll take in Computer Science. From getting internships and job offers to preparing for advanced courses, understanding data structures and algorithms is what differentiates programmers and coders from computer scientists and engineers. Generally speaking, the data structures and algorithms course is one of the toughest for CS majors (across universities, not just here). This course should put together your problem solving and programming skills and push you to think beyond short and disjointed code– enabling you to think through and solve large-scale and real-world problems.
+  - title: Computer Problem Solving for Science and Engineering
+    categories: ['CS1', 'Programming']
+    syllabus:
+    materials:
+    abstract: An integrated symbolic, numerical, and graphical approach to computer problem solving. Structured design; fundamental programming techniques. Computer algebra systems. Scientific, engineering, and mathematical applications.
+  - title: Web Design and Programming
+    categories: ['Web Development']
+    syllabus:
+    materials: https://bit.ly/vcc-frontend
+    abstract: Being a web developer is about more than knowing the ins and outs of HTML, CSS, and/or JavaScript-- it’s about creating communication solutions. As problem solvers, developers need to know what tools will enable them to best* meet the needs of their clients. Rather than going in depth into programming sites, this course will cover a wide breadth of tools and strategies for developing sites, enabling us to be flexible with our approaches. 
+              <br> <i> *Solutions are best when they are clean and efficient. In order to be a solution, it must be fully-functional, otherwise it’s just a band-aid </i>.
+  - title: Being Human in STEM (HSTEM)
+    categories: ['STEM','Community Engagement','Identity']
+    syllabus: https://bit.ly/hstem-uri
+    materials: https://bit.ly/hstem-uri#heading=h.f9i7kqa6hdsi
+    abstract: This course explores the ways in which marginalized identities are implicitly and explicitly excluded from Science, Technology, Engineering, and Mathematics (STEM). Issues of race, gender, sexual orientation, disability, and socioeconomic status are explored through news articles, social media, research articles, videos, and podcasts. Course material and conversations seek to amplify marginalized voices. Final assignment is project-based and requires community engagement.
+  - title: Dynamic Web Design and Programming
+    categories: ['Web Development']
+    syllabus:
+    materials: https://bit.ly/vcc-backend
+    abstract: Web-based information technology for communication and delivery of dynamically generated content. Technology will include current practice and tools for server-side programming, client-side programming, third-party services, data storage, and security concerns.
+  - title: Computing, Ethics, and Society
+    categories: ['Computing Ethics', 'Social Impact']
+    syllabus: https://nu-tech-ethics.github.io/spring2023/syllabus/
+    materials: https://nu-tech-ethics.github.io/spring2023/
+    abstract: Computing technologies shape our personal, social, and political lives in increasingly complex and consequential ways – providing tremendous benefits (e.g. convenient access to information, connecting to one another across time and space) and harms (e.g. biased decision-making, mass surveillance, disinformation campaigns, and exclusion from critical material opportunities) that are important to examine and understand. At the same time, these technologies are born and shaped by the societies in which they are developed. Thus, grappling with the ethics of technologies (i.e considering the harms and benefits, how and why they were created in the first place, and how and to what ends they are used) is important not only for ultimately creating more moral technologies but a more moral society. Thus, our approach to the ethics of computing technologies requires a multifaceted assessment of their harm and benefit to our individual, cultural, and political lives, and simultaneously a critical examination of the values, ideologies, and contexts through which computing technologies emerge. To accomplish this, we will engage in critical reading across a range of topics drawn from computer science and HCI, education and learning sciences, as well as ethics and philosophy.
