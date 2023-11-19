@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 375px) {
+  .btn {
+    padding: 12px 20px;
+  }
+}
+
 .btn-primary {
   background: $primary-color;
   color: $white !important;
