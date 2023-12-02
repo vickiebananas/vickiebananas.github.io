@@ -27,7 +27,7 @@ cta:
 
 ################## Social site ###############
 social:
-  - name: linkedin
+  - name: linkedIn
     icon: "ti-linkedin"
     link: "https://linkedin.com/in/vickiebananas"
 

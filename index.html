@@ -45,7 +45,7 @@
         <ul class="list-inline menu-socials-links fixed-bottom">
           {% for social in site.social %}
           <li class="list-inline-item mb-2">
-            <a href="{{ social.link }}" class="active"><i class="{{social.icon}}"></i></a>
+            <a href="{{ social.link }}" class="active" aria-label="{{social.name}}"><i class="{{social.icon}}"></i></a>
           </li>
           {% endfor %}
         </ul>
