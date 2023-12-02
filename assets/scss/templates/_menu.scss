@@ -45,9 +45,8 @@
   .dropdown {
     &:hover {
       .dropdown-menu {
-        visibility: visible;
-        opacity: 1;
-        margin-top: 0;
+        visibility: hidden;
+        opacity: 0;
       }
     }
 
@@ -76,13 +75,8 @@
       }
 
       &.show {
-        visibility: hidden;
-
-        @include desktop {
-          visibility: visible;
-          display: block;
-          text-align: center;
-        }
+        visibility: visible !important;
+        opacity: 1 !important;
       }
     }
   }
@@ -659,8 +653,9 @@
       text-align: center;
 
       &.show {
-        visibility: visible;
-        display: block;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: static;
       }
     }
   }

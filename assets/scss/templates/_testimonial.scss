@@ -131,10 +131,6 @@
             transition: all .35s ease;
             cursor: pointer;
 
-    &:focus{
-    	 outline: 0;
-    }
-
     &:hover{
     	color: $primary-color;
     }

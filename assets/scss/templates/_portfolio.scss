@@ -58,13 +58,6 @@
 .portfolio-2,
 .portfolio-5 {
 
-  .btn:focus,
-  .btn:hover,
-  .btn.focus.active {
-    box-shadow: none !important;
-    outline: 0 !important;
-  }
-
   .btn-group .btn {
     border-radius: 0px !important;
     color: $black-light;

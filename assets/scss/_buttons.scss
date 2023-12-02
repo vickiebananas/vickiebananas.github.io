@@ -11,11 +11,6 @@
   z-index: 1;
   cursor: pointer;
 
-  &:focus {
-    outline: 0px;
-    box-shadow: none !important;
-  }
-
   &:active {
     box-shadow: none;
   }
