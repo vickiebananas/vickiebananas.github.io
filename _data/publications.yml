@@ -5,7 +5,7 @@ items:
     year: 2023
     source: Blikstein, P., Van Aalst, J., Kizito, R., & Brennan, K. (Eds.), Proceedings of the 17th International Conference of the Learning Sciences - ICLS 2023 (pp. 1474-1477). International Society of the Learning Sciences. International Conference of the Learning Sciences (ICLS ‘23)
     source-logo: isls-logo.png
-    url: https://repository.isls.org//handle/1/9951
+    url: https://doi.org/10.22318/icls2023.262420
     pdf: Chavez-VanWart23-Students-Understanding-Accessibility.pdf
     abstract: In this paper, we use students’ assignments to offer insights about what students take away when they learn about web accessibility...
   - title: '“The Focus Came in Handy for Me Too”: Exploring Accessibility Learning and Identity Formation in a Web Development Course'
@@ -14,7 +14,7 @@ items:
     year: 2023
     source: Blikstein, P., Van Aalst, J., Kizito, R., & Brennan, K. (Eds.), Proceedings of the 17th International Conference of the Learning Sciences - ICLS 2023 (pp. 2127-2128). International Society of the Learning Sciences
     source-logo: isls-logo.png
-    url: https://repository.isls.org//handle/1/10195
+    url: https://doi.org/10.22318/icls2023.307950
     pdf: Chavez23-Accessibility-Learning-Identity-Formation.pdf  
     abstract: In this paper, we explore learners’ knowledge acquisition as it relates to accessibility-related identity formation...
   - title: 'Expanding Computer Science for All: Effectiveness of State Practices and Implementation'
