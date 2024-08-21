@@ -53,9 +53,9 @@ sass:
   style: compressed
 
 #collections
-collections:
-  portfolios:
-    output: true
+# collections:
+#   portfolios:
+#     output: false
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
