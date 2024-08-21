@@ -18,6 +18,8 @@ main:
         url: /curriculum
       - name: Programming
         url: /programming
+      - name: Miscellanea, by vickiebananas
+        url: https://vickiebananas.square.site
   - name: Updates
     url: /updates
   - name: Contact
@@ -43,6 +45,8 @@ portfoliofooter:
     url: /curriculum
   - name: Programming
     url: /programming
+  - name: Miscellanea, by vickiebananas
+    url: https://vickiebananas.square.site
 
 ############## Bottom menu ###############
 # bottom:

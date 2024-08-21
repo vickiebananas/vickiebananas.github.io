@@ -64,7 +64,7 @@
       opacity: 0;
       right: 0px;
       transition: all .45s ease;
-      width: 250px;
+      width: 275px;
 
       @include desktop {
         display: none;
@@ -90,7 +90,7 @@
 }
 
 .dropdown-item {
-  padding: 9px 23px;
+  padding: 9px 5px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
