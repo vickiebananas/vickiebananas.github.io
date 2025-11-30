@@ -18,7 +18,7 @@
                   <a href="{{ item.url }}" class="btn btn-extra-light">View Source</a>
                 </div>
                 <div class="col-6">
-                  <a href="{{ item.pdf | relative_url }}" class="btn btn-extra-light">View PDF</a>
+                  <a href="/assets/pdf/{{ item.pdf | relative_url }}" class="btn btn-extra-light">View PDF</a>
                 </div>
               {% else %}
                 {% if item.url %}
