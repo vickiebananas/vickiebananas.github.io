@@ -31,10 +31,6 @@ social:
     icon: "ti-linkedin"
     link: "https://linkedin.com/in/vickiebananas"
 
-  - name: twitter
-    icon: "ti-twitter-alt"
-    link: "https://twitter.com/vickiebananas"
-
   - name: github
     icon: "ti-github"
     link: "https://github.com/vickiebananas"
