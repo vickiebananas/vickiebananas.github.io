@@ -68,6 +68,10 @@
     }
   }
 
+  .btn-group-inline {
+    display: inline !important;
+  }
+
   .btn-group:not(:first-child)>.btn,
   .btn-group>.btn:not(:first-child) {
     border-top-left-radius: 0px;

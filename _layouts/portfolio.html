@@ -2,37 +2,53 @@
 layout: default_2
 ---
 
-{% include header_2.html %}
-<section class="portfolio-single">
+{% case page.yaml_cat %}
+  {% when "publications" %}
+     {% assign items = site.data.publications.items | sort: 'year' | reverse %}
+     {% assign display = 'port' %}
+  {% when "curriculum" %}
+     {% assign items = site.data.curriculum.items | sort: 'title' %}
+     {% assign display = 'pubs' %}
+  {% when "programming" %}
+     {% assign items = site.data.programming.items | sort: 'title' %}
+     {% assign display = 'pubs' %}
+{% endcase %}
+
+<section class="section portfolio-5">
+
+	<!-- Portfolio Categories start -->
 	<div class="container">
 		<div class="row justify-content-center">
-          {{page.content}}
+			<div class="col-lg-10 text-center">
+				<h1 class="mb-5 mt-2 text-uppercase">{{page.title}}</h1>
+			</div>
 		</div>
+
+		<div class="row align-items-center mb-5">
+		  	<div class="text-center">
+		        <div class="btn-group btn-group-toggle btn-group-inline" data-toggle="buttons">
+		          <label class="btn border-0 active">
+		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+		          </label>
+							{% assign categories = items | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+							{% for category in categories %}
+							<label class="btn border-0">
+								<input type="radio" name="shuffle-filter" value="{{ category | downcase | slugify }}" />{{ category }}
+							</label>
+							{% endfor %}
+		        </div>
+		  </div>
+		</div>    
 	</div>
-</section>
+	<!-- Portfolio categories end -->
 
-
-<section class="section related-project">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h3 class="mb-5">Other Research Topics</h3>
-			</div>
-		</div>
-		<div class="row">
-            {% for portfolio in site.portfolios limit:"3" %}
-			<div class="col-lg-4">
-				<div class="portfolio-block text-center border-0 ">
-				    <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
-				    <a class="card-img-overlay" href="{{portfolio.url}}">
-				      <h5 class="card-title text-white mb-0">{{portfolio.title}}</h5>
-				      <p class="card-text text-white text-uppercase text-sm">{{portfolio.category}}</p>
-				    </a>
-				</div>
-			</div>
-            {% endfor %}
-		</div>
+	    <div class="row shuffle-wrapper portfolio-gallery">
+	    	{% if display == 'pubs' %}
+	      		{% include pub_loop.html items=items %}
+	  		{% else %} 
+		  			{% include portfolio_loop.html items=items %}
+	  		{% endif %}
+	    </div>
 	</div>
 </section>
-
-{% include call_to_action.html %}
