@@ -1,0 +1,45 @@
+{% for item in items %}
+	<section class="col-lg-6 col-xs-12 shuffle-item aspect" data-groups="[{% for category in item.categories %} &quot;{{ category | downcase | slugify }}&quot; {% unless forloop.last %}, {% endunless %} {% endfor %}]">
+		<h2 class="h6 w-100 text-center mb-3">{{ item.title }}</h2>
+		<div class="row">
+			
+				{% if item.design %}
+				<div class="col-6">
+					<img src="/assets/images/portfolio/designs{{ item.design | relative_url}}" class="w-100" alt="{{ item.alt }}">
+				{% endif %}
+
+				{% if item.source-logo %}
+				<div class="col-3">
+					<img src="/assets/images/portfolio/logos{{ item.source-logo | relative_url}}" class="w-100" alt="{{ item.source-logo | split: '.' | first }}">
+				{% endif %}
+			</div>
+			<div class="col-6">
+				{% if item.description %}
+					<p>{{ item.description }}</p>
+				{% endif %}
+
+				{% if item.abstract %}
+					<p>{{ item.abstract }}</p>
+				{% endif %}
+			</div>
+		</div>	
+		{% if page.yaml_cat == "publications" %}
+			<div class="row d-flex justify-content-center">
+				{% if item.pdf %}
+                <div class="p-2">
+                  <a href="{{ item.url }}" class="btn btn-extra-light">View Source</a>
+                </div>
+                <div class="p-2">
+                  <a href="{{ item.pdf | relative_url }}" class="btn btn-extra-light">View PDF</a>
+                </div>
+              {% else %}
+                {% if item.url %}
+                  <div class="col-12">
+                    <a href="{{ item.url }}" class="btn btn-extra-light">View Source</a>
+                  </div>
+                {% endif %}
+              {% endif %}
+			</div>
+		{% endif %}
+	</section>
+{% endfor %}

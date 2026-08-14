@@ -1,0 +1,46 @@
+items:
+  - title: 'Labs for Liberation Logo'
+    categories: ['Logos']
+    design: 'logos/l4l-logo.png'
+    alt: "Yellow circuitry resembling a sun or flower. Circuitry contains purple and green accents, the project's secondary and tertiary colors. At the center reads 'Labs for Liberation' in bold green text."
+    description: Commissioned logo for a research lab; inspired by circuitry, interconnectedness, and dandelions.
+  - title: 'Misogynoir in Medicine Logo'
+    categories: ['Logos']
+    design: 'logos/mim-logo.png'
+    alt: "Two black 'M's joined at their inner legs, with a mint green lowercase i resembling a stick figure in the middle. Text at the bottom reads 'Misogynoir in Medicine'."
+    description: Commissioned logo for a documentary film; designed as a clean and readable aesthetic.  
+  - title: 'Labs for Liberation Website'
+    categories: ['Websites', 'Wordpress']
+    design: 'website-mockups/l4l-mockups.png'
+    alt: "Screenshots of the Labs for Liberation website homepage on a laptop and a smartphone. The website has a light off-white background and presents mostly text, with the project title in purple and the logo on the top left."
+    description: Commissioned website for a research lab; built using Wordpress.  
+  - title: 'Misogynoir in Medicine Website'
+    categories: ['Websites', 'Squarespace']
+    design: 'website-mockups/mim-mockups.png'
+    alt: "Screenshots of the Misogynoir in Medicine website homepage on a laptop and a smartphone. The website has a header image of Black women of various ages, and a color theme of light beige and light mint."
+    description: Commissioned website for Misogynoir in Medicine, a documentary film project; built using Squarespace.  
+  - title: 'Personal Site, Academic'
+    categories: ['Websites', 'Wordpress']
+    design: 'website-mockups/mb-mockups.png'
+    alt: "Screenshots of Dr. Bailey's personal website homepage on a laptop and a smartphone. The website has a charcoal background, mint-colored menu, and white section background."
+    description: Commissioned personal website for Dr. Bailey; built using Wordpress.
+  - title: 'The Papaya Project'
+    categories: ['Websites', 'Jekyll', 'HTML+CSS', 'JQuery', 'JavaScript', 'GH Pages']
+    design: 'website-mockups/pap-mockups.png'
+    alt: "Screenshots of the Papaya Project website homepage on a laptop and a smartphone. The website has a header image of papayas and a deep blue and bright pink color theme."
+    description: "Website developed for The Papaya Project; built using Jekyll and deployed using Github Pages."
+  - title: 'Recipes for Resistance'
+    categories: ['Websites', 'Jekyll', 'HTML+CSS', 'JQuery', 'JavaScript', 'GH Pages']
+    design: 'website-mockups/r4r-mockups.png'
+    alt: "Screenshots of the Recipes for Recipes website homepage on a laptop and a smartphone. The website features a large purple header and white text."
+    description: "Website designed and developed for The Recipes for Resistance Podcast; built using Jekyll and deployed using Github Pages."
+  - title: 'Personal Site, Programmer'
+    categories: ['Websites', 'HTML+CSS', 'JavaScript', 'GH Pages']
+    design: 'website-mockups/vb-old-mockup.png'
+    alt: "Screenshot of my own (old) website homepage on a laptop. The website features a simple aesthetic, with a black background and white text, resembling a business card."
+    description: "Website designed and developed as my first own personal site. Design built using raw HTML, CSS, and JavaScript (no frameworks or libraries) and deployed using Github Pages."
+  - title: 'Personal Site, Academic'
+    categories: ['Websites', 'Jekyll', 'HTML+CSS', 'JQuery', 'JavaScript', 'GH Pages']
+    design: 'website-mockups/vb-mockups.png'
+    alt: "Screenshots of my personal website homepage on a laptop and a smartphone. The website features a light green, deep red, and white theme with floral accents."
+    description: "Website designed and developed as my newest own personal site; built using Jekyll and deployed using Github Pages."

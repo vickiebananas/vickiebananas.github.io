@@ -12,6 +12,9 @@ layout: default_2
   {% when "programming" %}
      {% assign items = site.data.programming.items | sort: 'title' %}
      {% assign display = 'pubs' %}
+ {% when "designs" %}
+     {% assign items = site.data.designs.items %}
+     {% assign display = 'portfolio' %}
 {% endcase %}
 
 <section class="section portfolio-5">
@@ -42,13 +45,13 @@ layout: default_2
 	</div>
 	<!-- Portfolio categories end -->
 
-	<div class="container">
-	    <div class="row shuffle-wrapper portfolio-gallery">
-	    	{% if display == 'pubs' %}
-	      		{% include pub_loop.html items=items %}
-	  		{% else %} 
-		  			{% include portfolio_loop.html items=items %}
-	  		{% endif %}
-	    </div>
+	<div class="container portfolio-gallery shuffle-wrapper">
+    	{% if display == 'pubs' %}
+      	{% include pub_loop.html items=items %}
+		{% elsif display == 'port' %}
+			{% include portfolio_loop.html items=items %}
+  		{% else %} 
+	  		{% include portfolio_items.html items=items %}
+  		{% endif %}
 	</div>
 </section>

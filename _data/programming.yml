@@ -1,7 +1,7 @@
 items:
   - title: "SNAPy"
     abstract: An SMS app that allows users to find locations near them that accept food stamps. A user can text their address formatted as "69 Brown St Providence, RI" and will receive a text with the three places nearest them that accept food stamps according to USDA's data.
-    categories: ['Python','API Use']
+    categories: ['Python','API']
     proj: https://devpost.com/software/snapy
   - title: "Evil <s>Hangman</s> Snowman"
     abstract: Classic <s>Hangman</s> Snowman with a twist! Played through the system's input/output stream, with every guess, the computer changes the word in order to decrease the chances of the user guessing the correctly. 
@@ -14,7 +14,7 @@ items:
     categories: ['OCaml','AI']
   - title: "Rackette"
     abstract: A Racket interpreter that can evaluate simple procedures and lambda expressions. A second version of this project can fully evaluate recursive procedures and lists. 
-    categories: ['OCaml','PL-Interpreter']
+    categories: ['OCaml','Programming Languages']
   - title: "Connect4"
     abstract: A Connect4 game that can be played through the command line with another player or against an AI programmed using the Min-Max algorithm. The user can see the board on the terminal and then choose which column to place their token in, in order to connect four of their tokens and prevent their opponent from doing the same. 
     categories: ['OCaml','Game','AI']
@@ -23,7 +23,7 @@ items:
     categories: ['Java','Game']
   - title: "Contacts"
     abstract: Using a socket-client connection, users may add or remove contacts which are stored in a temporary database of sorts. Users may extract their contacts in XML form as well as start with an XML address book and simply add/remove contacts from there. 
-    categories: ['Java','Server','Parsing','API Use']
+    categories: ['Java','Server','Parsing','API']
   - title: "Knight Dating"
     abstract: Project that makes use of k-d Trees and nearest neighbor search. Nodes store numerical data representing user traits. User interact with a GUI (created using JavaFX) to enter their traits (numerical data) and will receive the name of the 'person' whose traits (numerical info) most closely matches theirs. 
     categories: ['Scala','JavaFX', 'Trees','GUI']

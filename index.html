@@ -72,54 +72,52 @@
           <div class="row justify-content-center align-items-center text-center mb-5">
             <div class="col-7">
                 <strong>Research Topics:</strong>
-                <!-- {% assign categories = site.data.publications.items| map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+                {% assign categories = site.data.publications.items| map: 'categories' | join: ',' | split: ',' | uniq | sort %}
                 {% for category in categories %}
-                {{ category }} | 
-                {% endfor %} -->
-                Academia | Accessibility | Disability | Education | Policy | Social Justice | Undergraduate |
-              </div>
-              <div class="col-5">
-                <a href="/research" class="btn btn-extra">Explore My Research</a> 
-              </div>
+                  {{ category }} | 
+                {% endfor %}
             </div>
+            <div class="col-5">
+              <a href="/research" class="btn btn-extra">Explore My Research</a> 
+            </div>
+          </div>
 
           <div class="row justify-content-center align-items-center text-center mb-5">
             <div class="col-7">
                 <strong>Curriculum Topics:</strong>
-                <!-- {% assign categories = site.data.curriculum.items| map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+                {% assign categories = site.data.curriculum.items| map: 'categories' | join: ',' | split: ',' | uniq | sort %}
                 {% for category in categories %}
-                {{ category }} | 
-                {% endfor %} -->
-                CS1 | CS2-DSA | Computing Ethics | HCI | Identity | Programming | STEM | Social Impact | Web Development |
-              </div>
-              <div class="col-5">
-                <a href="/curriculum" class="btn btn-extra">Explore My Curricula</a> 
-              </div>
+                  {{ category }} | 
+                {% endfor %}
             </div>
+            <div class="col-5">
+              <a href="/curriculum" class="btn btn-extra">Explore My Curricula</a> 
+            </div>
+          </div>
 
           <div class="row justify-content-center align-items-center text-center mb-5">
             <div class="col-md-7 col-6">
                 <strong>Programming Topics:</strong>
-                <!-- {% assign categories = site.data.programming.items| map: 'categories' | join: ',' | split: ',' | uniq | sort%}
+                {% assign categories = site.data.programming.items| map: 'categories' | join: ',' | split: ',' | uniq | sort%}
                 {% for category in categories %}
-                {{ category }} | 
-                {% endfor %} -->
-                AI | GUI | Game | Java | JavaFX | Jekyll | OCaml | Python | Racket | Scala | Web Development |
-              </div>
-              <div class="col-md-5 col-6">
-                <a href="/programming" class="btn btn-extra">Explore My Programming</a> 
-              </div>
+                  {{ category }} | 
+                {% endfor %}
+            </div>
+            <div class="col-md-5 col-6">
+              <a href="/programming" class="btn btn-extra">Explore My Programming</a> 
             </div>
           </div>
 
-          <div class="row shuffle-wrapper portfolio-gallery">
-            {% include portfolio_loop.html %}
+          <div class="row justify-content-center align-items-center text-center mb-5">
+            <div class="col-12">
+                <p class="text-black"><strong>I also dabble in <a href="https://vickiebananas.square.site">art</a> and <a href="/design">graphic design</a>!</strong></p>
+            </div>
           </div>
         </div>
       </section>
-    </div>
-    {% include footer_2.html %}
+    </div> 
   </div>
+    {% include footer_2.html %}
 </body>
 
 </html>

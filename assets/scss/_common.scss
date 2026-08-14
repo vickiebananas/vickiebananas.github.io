@@ -46,6 +46,10 @@ a {
 	color: $extra-color !important;
 }
 
+p a {
+  text-decoration-line: underline;
+}
+
 a:hover {
 	color: $primary-color !important;
 }

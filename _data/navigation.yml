@@ -18,6 +18,8 @@ main:
         url: /curriculum
       - name: Programming
         url: /programming
+      - name: Web and Graphic Design 
+        url: /design
       - name: Miscellanea, by vickiebananas
         url: https://vickiebananas.square.site
   - name: Updates

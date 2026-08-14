@@ -1,3 +1,11 @@
+.aspect { /* helps ensure cols appear as if in rows with even spacing [rows cant be used with filtering]. courtesy of https://codepen.io/moamas/pen/GRgVmej */
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 27%;
+  overflow: hidden;
+}
+
 .portfolio {
   background: url("../images/bg/bg-2.jpg")no-repeat;
   background-size: cover;

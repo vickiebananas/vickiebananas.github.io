@@ -164,16 +164,20 @@
   var containerEl = document.querySelector('.shuffle-wrapper');
   if (containerEl) {
     var Shuffle = window.Shuffle;
-    var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
-      itemSelector: '.shuffle-item',
-      buffer: 1
-    });
+    var myShuffles = document.querySelectorAll('.shuffle-wrapper');
 
-    $('input[name="shuffle-filter"]').on('change', function (evt) {
-      var input = evt.currentTarget;
-      if (input.checked) {
-        myShuffle.filter(input.value);
-      }
+    myShuffles.forEach((wrapper) => {
+      var myShuffle = new Shuffle(wrapper, {
+        itemSelector: '.shuffle-item',
+        buffer: 1
+      })
+
+      $('input[name="shuffle-filter"]').on('change', function (evt) {
+        var input = evt.currentTarget;
+        if (input.checked) {
+          myShuffle.filter(input.value);
+        }
+      })
     });
   }
 
