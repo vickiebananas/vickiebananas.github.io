@@ -6,8 +6,32 @@
   overflow: hidden;
 }
 
+/* larger padding as screen gets smaller */
+@media(min-width:1000px) {
+  .aspect {
+    padding-bottom: 27vw !important;
+  }
+}
+
+@media(min-width:1500px) {
+  .aspect {
+    padding-bottom: 17vw !important;
+  }
+}
+
+@media(max-width:850px) {
+  .aspect {
+    padding-bottom: 60vw !important;
+  }
+}
+
+@media(max-width:320px) {
+  .aspect {
+    padding-bottom: 80vw !important;
+  }
+}
+
 .portfolio {
-  background: url("../images/bg/bg-2.jpg")no-repeat;
   background-size: cover;
 }
 

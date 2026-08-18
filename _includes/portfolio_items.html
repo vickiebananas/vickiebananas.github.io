@@ -2,17 +2,18 @@
 	<section class="col-lg-6 col-xs-12 shuffle-item aspect" data-groups="[{% for category in item.categories %} &quot;{{ category | downcase | slugify }}&quot; {% unless forloop.last %}, {% endunless %} {% endfor %}]">
 		<h2 class="h6 w-100 text-center mb-3">{{ item.title }}</h2>
 		<div class="row">
-			
-				{% if item.design %}
+			{% if item.design %}
 				<div class="col-6">
 					<img src="/assets/images/portfolio/designs{{ item.design | relative_url}}" class="w-100" alt="{{ item.alt }}">
-				{% endif %}
+				</div>
+			{% endif %}
 
-				{% if item.source-logo %}
+			{% if item.source-logo %}
 				<div class="col-3">
 					<img src="/assets/images/portfolio/logos{{ item.source-logo | relative_url}}" class="w-100" alt="{{ item.source-logo | split: '.' | first }}">
-				{% endif %}
-			</div>
+				</div>
+			{% endif %}
+				
 			<div class="col-6">
 				{% if item.description %}
 					<p>{{ item.description }}</p>

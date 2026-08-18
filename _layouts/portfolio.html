@@ -5,7 +5,7 @@ layout: default_2
 {% case page.yaml_cat %}
   {% when "publications" %}
      {% assign items = site.data.publications.items | sort: 'year' | reverse %}
-     {% assign display = 'port' %}
+     {% comment %} {% assign display = 'port' %} {% endcomment %}
   {% when "curriculum" %}
      {% assign items = site.data.curriculum.items | sort: 'title' %}
      {% assign display = 'pubs' %}
