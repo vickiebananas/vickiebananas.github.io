@@ -1,10 +1,10 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vickiebananas.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
-title: "Victoria C. Cha&#769;vez"
+title: "Victoria C. Cha&#769;vez, Ph.D."
 email: "victoria@vickiebananas.com"
 # author: themefisher
 description: >- # this means to ignore newlines
-  Victoria C. Cha&#769;vez, Educator. Scholar. Engineer. Graduate student at Northwestern.
+  Victoria C. Cha&#769;vez, Ph.D. Educator. Scholar. Engineer. 
 logo: "/assets/images/red-v-small.png"
 logo_icon: "/assets/images/red-v-small.png"
 # contact form action
